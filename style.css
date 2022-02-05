@@ -26,7 +26,7 @@ html{
 /* navigation styling start */
 nav{
     position: fixed;
-    
+    z-index: 10000;
     width: 100%;
     padding: 20px 0;
     font-family: 'Ubuntu',sans-serif;
@@ -41,7 +41,7 @@ nav .navbar{
     width: 90%;
     margin: auto;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
  
 }
@@ -289,6 +289,9 @@ section .button button:hover{
 .skills .skills-details .boxes .topic,
 .skills .skills-details .left .topic{
 color: rgb(6, 51, 65);
+}
+.carousel{
+        padding-top: 20px !important;
 }
 .skills .skills-details .left p{
     text-align: justify;
